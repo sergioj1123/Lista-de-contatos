@@ -1,4 +1,4 @@
-# Projeto 4 e 5:  EUA Afora
+# Projeto 2: Agenda de Contatos
 
 ### Visão geral
 
@@ -11,4 +11,4 @@ Este projeto foi desenvolvido como trabalho 2 do curso de FrontEnd da EBAC. Este
 
 **Vercel**
 
-- [Link para o projeto na Vercel](https://www.figma.com/file/HD3sjY52cfmedXVdlxkhZ0/WEB%2C-Sprint-5)
+- [Link para o projeto na Vercel](https://lista-de-contatos-blond.vercel.app/)
