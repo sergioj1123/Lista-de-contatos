@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Agenda de Contatos</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="title">Agenda de contatos</h1>
+    </header>
+    <main>
+      <section class="table">
+        <table class="contact-table">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody class="tenants-template">
+            <tr></tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="new-contact">
+        <form class="new-contact-form">
+          <label for="name">Nome: </label>
+          <input
+            type="text"
+            id="name"
+            class="name"
+            required
+            placeholder="Nome"
+          />
+          <label for="contact">Número de contato:</label>
+          <input
+            type="number"
+            maxlength="15"
+            id="contact"
+            class="contact"
+            required
+            placeholder="Contato"
+          />
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+    <template id="contact-template">
+      <tbody>
+        <tr class="contact-complete">
+          <td class="contact-name">Teste</td>
+          <td class="contact-number">Teste</td>
+        </tr>
+      </tbody>
+    </template>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

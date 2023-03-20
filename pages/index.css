@@ -1,0 +1,7 @@
+/* Importando normalize */
+@import url(../vendor/normalize.css);
+@import url(../css/root/root.css);
+
+@import url(../css/colors.css);
+@import url(../css/table/table.css);
+@import url(../css/form/form.css);
